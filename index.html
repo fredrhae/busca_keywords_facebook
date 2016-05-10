@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Busca de posts no Facebook</title>
+		<link type="text/css" rel="stylesheet" href="styles/reset.css">
+		<link type="text/css" rel="stylesheet" href="styles/main.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div class="facebook_search_results">
+			<div class="navbar">
+				<a href="">
+					<img id="logo" src="images/logo_face.png"/>
+				</a>
+				<div class="search_form">
+					<p id="texto_instrucao">Digite os termos a serem pesquisados:</p>
+					<form action="search_query.php" method="POST">
+						<div class="search_query">
+							<input id="search_query_input" type="text" name="search_query" value=""/>
+							<input id="search_button"  type="submit" name="search_button" value=""/>
+						</div>
+					</form>
+				</div>
+<!-- 				<ul class="profile_options">
+					<li><a class="link_navbar" href="">+ Josely</a></li>
+					<li><a class="link_navbar"  href="">Gmail</a></li>
+					<li><a class="link_navbar"  href="">Imagens</a></li>
+				</ul> -->
+			</div>
+ 			<div class="content">
+			</div>
+ 			<div class="footer">
+				<div class="footer_options">
+					<ul>
+						<li><a class="link_footer" href="">Ajuda</a></li>
+						<li><a class="link_footer" href="">Enviar feedback</a></li>
+						<li><a class="link_footer" href="">Termos</a></li>					
+					</ul>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>
